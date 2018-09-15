@@ -1,0 +1,13 @@
+
+#include "event.h"
+#include <stdlib.h>
+
+int jobFactory = 0;
+
+Event* newEvent(){
+  Event *newEvent = calloc(1, sizeof(Event));
+  jobFactory +=1;
+  newEvent->jobNumber = jobFactory;
+  newEvent->eventType = SYSTEM_ARRIVAL;
+  return newEvent;
+}

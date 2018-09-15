@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "event.h"
+#include "queue2.h"
+
+int main(int argc, char** argv){
+  
+  Event *event[1000];
+  printf("preparing to create and initialize new QUEUE\n");
+  Queue* eventQueue = newQueue();
+  printf("eventQueue successfully created\n");
+  printf("creating new event\n");
+  Event* event = newEvent();
+  printf("eventsuccesfully created now adding to list");
+  push(eventQueue, event);
+  printf("\nlist has %d elements\n Contents of list:", eventQueue->size);
+   printQueue(eventQueue);
+  destroyQueue(eventQueue);
+
+  return 0;
+}
