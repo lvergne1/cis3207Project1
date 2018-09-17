@@ -1,0 +1,25 @@
+
+**********STATISTICS*********
+CPU Statistics:
+The CPU was busy for %95.771996 of total simulation time
+The maximum CPU queue length was 17
+The average CPU queue length was 4.945472
+The CPU processed 1211 jobs to completion
+The average CPU response time was 479.010742
+Total CPU throughput was 0.012110 Jobs/TimeUnit
+
+Disk 1 Statistics:
+Disk 1 was idle for %85.081001 of total simulation time
+The maximum Disk 1 queue length was 8
+The average Disk 1 queue length was 2.816990
+Disk 1 processed 464 jobs to completion
+The average Disk 1 response time was 766.409485
+Total Disk 1 throughput was 0.004640 Jobs/TimeUnit
+
+Disk 2 Statistics:
+Disk 2 was idle for %83.718994 of total simulation time
+The maximum Disk 2 queue length was 8
+The average Disk 2 queue length was 2.799728
+Disk 2 processed 472 jobs to completion
+The average Disk 2 response time was 779.222473
+Total Disk 2 throughput was 0.004720 Jobs/TimeUnit

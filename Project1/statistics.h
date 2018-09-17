@@ -18,6 +18,8 @@ void statUpdateDiskQSize(int diskNumber, int newSize, int systemTime);
 void statCpuJobFinished();
 void statDiskJobFinished(int diskNumber);
 void statUpdateCpuResponseTime(int startTime, int endTime);
+void statDiskJobFinished(int diskNumber);
+void statUpdateDiskResponseTime(int diskNumber, int startTime, int endTime);
 void statPrintCpuStats();
 void statPrintDiskStats();
 #endif /* statistics_h */

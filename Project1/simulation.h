@@ -16,4 +16,5 @@ void processDiskArrival(Event* jobToUseDisk);
 void processDiskFinish(Event* jobFinishedWithDisk);
 void processDisk1Finish(Event* jobFinishedWithDisk1);
 void processDisk2Finish(Event* jobFinishedWithDisk2);
+int readConfigValues();
 #endif 

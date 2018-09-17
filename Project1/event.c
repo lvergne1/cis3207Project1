@@ -11,3 +11,4 @@ Event* newEvent(){
   jobFactory += 1;
   return newEvent;
 }
+
